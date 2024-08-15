@@ -137,7 +137,7 @@ h2Element.innerHTML = contactTitle;
 let section5Tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".section5",
-    markers: true,
+    // markers: true,
     start: "top",
     end: "bottom",
     scrub: true,
